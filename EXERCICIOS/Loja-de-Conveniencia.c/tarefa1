@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include<string.h>
+int main()
+{
+    char nomedoproduto [20];
+    int   quantidade;
+    float precounitario;
+    float valortotal;
+    float valortotaldia;
+
+    printf("Digite o nome do produto\n");
+    scanf("%s", &nomedoproduto);
+
+    printf(" Digite a quantidade vendida\n");
+    scanf("%i", &quantidade);
+
+    printf("Digite o preco unitario\n");
+    scanf("%f", &precounitario);
+
+    valortotal=quantidade*precounitario;
+    printf(" O valor total da venda foi\n: %f", valortotal);
+   
+    valortotaldia+=valortotal;
+    printf("O valor total arrecadado no dia foi\n: %f", valortotaldia);
+
+    return 0;
+}
